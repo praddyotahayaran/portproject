@@ -1,0 +1,111 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+/* Left Side Intro */
+
+.leftIntro {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.introName {
+    display: flex;
+    flex-direction: column;
+}
+
+.introName>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.introName>:nth-child(2) {
+    font-weight: bold;
+    color: var(--darkblue);
+    font-size: 3rem;
+}
+
+.introName>:nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.introBtn {
+    width: 6rem;
+    /* height: 2rem; */
+}
+
+.socialHandle {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #4B56D2;
+}
+
+.socialHandle>*:hover {
+    transform: scale(.95);
+    cursor: pointer;
+}
+
+/* Right Side Intro */
+
+.rightIntro {
+    flex: 1;
+    position: relative;
+}
+
+.rightIntro>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.rightIntro>:nth-child(1) {
+    transform: scale(.69);
+    left: -15%;
+    top: -9%;
+}
+
+.rightIntro>:nth-child(2) {
+    top: -5.5rem;
+    transform: scale(.67);
+    left: -2rem;
+}
+
+.rightIntro>:nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+}
+
+.rightIntro>:nth-child(4) {
+    transform: scale(.5);
+    top: -19%;
+    left: -19%;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+        gap: 2rem;
+        height: 64rem;
+    }
+
+    .rightIntro {
+        transform: scale(.7);
+        left: -3rem;
+    }
+
+    .floatingDiv:nth-of-type(1) {
+        right: -10rem !important;
+        padding: 0 12px 0 0 ;
+    }
+} 

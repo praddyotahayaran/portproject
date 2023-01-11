@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --gray: gray;
+    --darkblue: #6C00FF;
+    --blue: #0081C9;
+    --liblue: #5BC0F8;
+    --lightblue: #86E5FF;
+    --ligreen: #FFB100;
+    --black: #1A0000;
+    --cardColor: rgba(219, 210, 210, 0.26);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+
+}
+
+.App {
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+}
+
+.button {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 34px;
+    cursor: pointer;
+    background: var(--darkblue);
+    box-shadow: 0 7px 12px 0px rgba(62, 8, 240, 0.42);
+}
+
+.button:active {
+    transform: scale(.95);
+}
+
+
+::-webkit-scrollbar{
+    height: 10px;
+    width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1ex;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background: skyblue;
+    border-radius: 1ex;
+    }
+
+@media screen and (max-width: 480px) {
+    .App {
+        padding: 0.5rem 1rem;
+    }
+}

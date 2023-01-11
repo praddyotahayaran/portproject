@@ -1,0 +1,55 @@
+.navWrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftNav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navLogo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Right Nav */
+
+.rightNav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.navList {
+    flex: 10;
+}
+
+.navList>ul {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* .navList>ul>li:hover {
+    color: var(--darkblue);
+}
+
+.navList>ul>Link>li:active {
+    transform: scale(.95);
+} */
+
+
+@media screen and (max-width: 480px) {
+    .navList {
+        display: none;
+    }   
+}

@@ -1,0 +1,70 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 9rem;
+    margin-top: 5rem;
+}
+
+/* Left Side */
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+    color: var(--darkblue);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3) {
+    color: var(--black);
+    margin-top: 2rem;
+}
+
+.serviceBtn {
+    /* width: 8rem; */
+    /* height: 2rem; */
+    margin-top: 2rem;
+}
+
+/* Right Side */
+
+.cards {
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+
+@media screen and (max-width: 480px) {
+    .services {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+        margin-bottom: 22rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 19rem;
+    }
+
+    .cards>* {
+        position: static;
+    }
+} 
