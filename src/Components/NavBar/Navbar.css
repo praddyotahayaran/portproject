@@ -39,14 +39,6 @@
     cursor: pointer;
 }
 
-/* .navList>ul>li:hover {
-    color: var(--darkblue);
-}
-
-.navList>ul>Link>li:active {
-    transform: scale(.95);
-} */
-
 
 @media screen and (max-width: 480px) {
     .navList {
