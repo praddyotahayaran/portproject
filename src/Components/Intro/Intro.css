@@ -50,7 +50,7 @@
 }
 
 .socialHandle>* {
-    color: var(--darkblue);
+    color: var(--blue);
 }
 
 .socialHandle>*:hover {
