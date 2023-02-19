@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.awesome>button {
+    width: 7rem;
+}
+
 /* Right SIde */
 
 .workRight {
